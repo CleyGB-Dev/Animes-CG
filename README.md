@@ -21,6 +21,7 @@ animes-cg
 └── README.md               # Documentação do projeto
 ```
 
+
 ## Instalação
 
 Para instalar e executar o projeto, siga os passos abaixo:
