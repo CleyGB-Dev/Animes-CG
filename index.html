@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes CG</title>
+    <link rel="stylesheet" href="styles/dark-theme.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="logo">Animes CG</div>
+            <input class="search" type="text" placeholder="Buscar animes...">
+            <button class="login-btn">Entrar</button>
+        </header>
+        <div class="container">
+            <nav class="sidebar">
+                <ul>
+                    <li>Início</li>
+                    <li>Populares</li>
+                    <li>Novos Episódios</li>
+                    <li>Favoritos</li>
+                </ul>
+            </nav>
+            <main class="main-content">
+                <h2>Recomendados para você</h2>
+                <div class="anime-grid">
+                    <div class="anime-card">
+                        <img src="https://placehold.co/240x135/222/fff?text=Anime+1" alt="Anime 1">
+                        <div class="anime-title">Anime 1</div>
+                    </div>
+                    <div class="anime-card">
+                        <img src="https://placehold.co/240x135/222/fff?text=Anime+2" alt="Anime 2">
+                        <div class="anime-title">Anime 2</div>
+                    </div>
+                    <div class="anime-card">
+                        <img src="https://placehold.co/240x135/222/fff?text=Anime+3" alt="Anime 3">
+                        <div class="anime-title">Anime 3</div>
+                    </div>
+                    <!-- Adicione mais cards conforme necessário -->
+                </div>
+            </main>
+        </div>
+    </div>
+    <div id="auth-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="auth-forms">
+                <!-- Formulários serão inseridos via JS -->
+            </div>
+        </div>
+    </div>
+    <script src="src/app.js" defer></script>
+</body>
+</html>
